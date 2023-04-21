@@ -26,28 +26,29 @@ body > header {
 
 }
 .button-style {
+    background-color: #13a0ff;
+    padding: .25rem .5rem;
+    border-radius: 15px;
+    border:solid 1px #0909a85f;
+    line-height: 1.5rem;
+    color: white;
   
 
 }
+/* :hover is a pseudo-class 
+It applies when the cursor hover */
+
 
 .button-style:hover {
-    background-color: #13a0ff;
-    color: white;
-    border:solid 1px navy;
-    line-height: 1.5rem;
-    padding: .25rem .5rem;
-    border-radius: 15px;
+    background-color: #1084d1;
+    border-color: #0909a85f;
     cursor: pointer;
 }
 header > a {
-    
-   
-    text-decoration: none;
-    margin-right: .5;
+     text-decoration: none;
+    margin-right: .5rem;
     }
 
-/* :hover is a pseudo-class 
-It applies when the cursor hover */
 
 header > a:hover {
     background-color: #0c67a4;
